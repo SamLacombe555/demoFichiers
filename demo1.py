@@ -1,10 +1,10 @@
-with open("produits.txt", "r") as fichier:
+with open("magasin/produits.txt", "r") as fichier:
     contenu = fichier.read().splitlines()
 
 print("Produits :")
 print(contenu)
 
-with open("demo_liste.txt", "r") as fichier:
+with open("magasin/demo_liste.txt", "r") as fichier:
     fruits = fichier.read().split(",")
 
 print("Fruits :")
@@ -21,7 +21,7 @@ for c in contenu:
     capitales[list_c[0]] = list_c[1]
 print(capitales)
 
-with open("prix.csv", "r") as fichier:
+with open("magasin/prix.csv", "r") as fichier:
     contenu = fichier.read().splitlines()
 
 print("Prix :")

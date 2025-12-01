@@ -2,7 +2,7 @@ import json
 
 dict_ventes = {}
 
-with open("ventes.json", "r", encoding="utf-8") as inventaire:
+with open("magasin/ventes.json", "r", encoding="utf-8") as inventaire:
     dict_ventes = json.load(inventaire)
 
 print(dict_ventes)
